@@ -1,0 +1,12 @@
+Goal > Discover clients on network
+    Steps
+    1. Create arp request directed to broadcast MAC asking for IP
+        Two Main Parts:
+        - Use ARP to ask who has Target IP
+        - Set destination MAC to broadcast MAC
+    2. Send packet and receive response.
+    3. Parse the response
+    4. Print the result """
+
+""" Set the destination MAC to the broadcast MAC so it can be sent to on the same network"""
+""" Data is sent using the MAC address, not the IP address"""
